@@ -7,7 +7,7 @@ var ball_swerve = 0.05; // speed of the horizontal movement of ball
 
 var period_per_level = 10000; // level increases after this time interval
 
-
+//I need to study this 
 // dimensions of the bars
 if (window.innerHeight > window.innerWidth) {
     var bar_width = window.innerWidth / 6;
@@ -17,7 +17,7 @@ if (window.innerHeight > window.innerWidth) {
     var bar_height = window.innerHeight / 50;
 }
 
-var bars_initial_y = gamecanvas.height + 10; //the vertical position where bars start from
+var bars_initial_y = gamecanvas.height +  10; //the vertical position where bars start from
 var bars_number = 6; // the number of bars in a game session
 
 // radius of the ball
